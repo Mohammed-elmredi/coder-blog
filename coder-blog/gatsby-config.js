@@ -1,10 +1,6 @@
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {},
-    },
-  ],
+
+  plugins: [`gatsby-plugin-netlify-cms`],
   // Customize your site metadata:
   siteMetadata: {
     title: `My Blog Title`,
